@@ -1,0 +1,37 @@
+* {
+    margin: 20px;
+   /* padding: 20px;*/
+}
+
+
+
+.title {
+    font-size: 40px;
+    background-color: antiquewhite;
+    text-align: center;
+}
+.title2 {
+    font-size: 30px;
+    background-color: antiquewhite;
+    text-align: center;
+}
+
+
+.title > .i1 {
+border-radius: 20%;
+}
+
+
+input {
+    border: 2px solid #a1a1a1;
+    padding: 10px 40px;
+    background: #ffffff;
+    width: 200px;
+    border-radius: 25px;
+    }
+
+
+.searchBar {
+    background-color: aquamarine;
+    text-align: center;
+}
