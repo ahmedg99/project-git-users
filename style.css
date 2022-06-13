@@ -1,6 +1,8 @@
 * {
     margin: 20px;
    /* padding: 20px;*/
+   background-color: #f0edee;
+   font-family: sans-serif;
 }
 
 
@@ -16,7 +18,6 @@
     text-align: center;
 }
 
-
 .title > .i1 {
 border-radius: 20%;
 }
@@ -29,6 +30,15 @@ input {
     width: 200px;
     border-radius: 25px;
     }
+
+button {
+    border-radius: 20%;
+    padding: 10px;
+    font-weight: 600;
+
+
+}
+
 
 
 .searchBar {
