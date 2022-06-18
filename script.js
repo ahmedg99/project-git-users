@@ -83,3 +83,44 @@ async function searchProfile(url) {
 
     
 
+
+        /* *******   Let-var-const ********* */ 
+
+/* let variable compilateur yefhmeha w yarafha
+ken f wost block eli deja saret fih el déclaration mteha */
+{
+    let nom = "ahmed";
+    const pi = 3.14; 
+    var number1 = 14;
+    console.log(nom);
+    console.log(pi);
+}
+
+// el var f ay blasa ndéclariwha el copilateur yarafha
+// const = var ama nejmou ken nchoufouha on n'a pas le droit de modifier sa valeur
+
+
+
+/*  type de donnée : array */
+var tab = new Array(10);
+var tab2 = Array(10);
+var tab3 = []; 
+
+// les fontions
+
+function esmfonction() {
+    console.log("helo");
+}
+
+function getName(nom) {
+    return "welcome" + nom;
+}
+
+// arrow function
+
+var factorielle =
+    function fac(n) {
+    return n < 2 ? 1 : n * fac(n - 1)
+    };
+
+var fact = n => n < 2 ? 1 : n * fact(n - 1); 
