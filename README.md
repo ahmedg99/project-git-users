@@ -8,4 +8,4 @@ https://api.github.com/users/
 
 # screenshot
 
-![alt text](https://github.com/ahmedg99/project-git-users/blob/main/Screenshot.png?raw=true)
+![alt text](https://github.com/ahmedg99/project-git-users/blob/master/Screenshot.png?raw=true)
