@@ -95,6 +95,12 @@ ken f wost block eli deja saret fih el déclaration mteha */
     console.log(nom);
     console.log(pi);
 }
+//  let a; 
+// console.log(a);
+
+
+
+
 
 // el var f ay blasa ndéclariwha el copilateur yarafha
 // const = var ama nejmou ken nchoufouha on n'a pas le droit de modifier sa valeur
@@ -104,7 +110,15 @@ ken f wost block eli deja saret fih el déclaration mteha */
 /*  type de donnée : array */
 var tab = new Array(10);
 var tab2 = Array(10);
-var tab3 = []; 
+var tab3 = [5];
+
+tab.push(1);
+tab[0] = 1; 
+
+
+
+
+tab.length;
 
 // les fontions
 
@@ -124,3 +138,21 @@ var factorielle =
     };
 
 var fact = n => n < 2 ? 1 : n * fact(n - 1); 
+
+
+// document.getElementById('#esmid');
+
+
+
+function getName() {
+    console.log("aslema");
+}
+
+
+var btn = document.querySelector('button');
+btn.addEventListener('click', getName);
+
+
+// console.log(" previos :" + btn.parentNode.value); 
+console.log( " name" + btn.nodeName); 
+console.log(" value "+ btn.nodeValue); 
